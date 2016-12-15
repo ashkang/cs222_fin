@@ -1,3 +1,12 @@
+# Generate a test-case
+
+`./generate 1.in 10 10 2`
+Generates two matrices 10x10 and 10x2
+
+# Vanilla multiplier
+
+`cat example.in | ./matrix.py`
+
 # Testing
 
 `cat example.in | ./mapper.py | ./reducer.py`
