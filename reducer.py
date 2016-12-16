@@ -23,12 +23,12 @@ for line in fileinput.input():
         else:
             Nlist[key] = [(j, val)]
 
-
-for key, arr in Mlist.items():
-    arr.sort(key=lambda t: t[0])
-
-for key, arr in Nlist.items():
-    arr.sort(key=lambda t: t[0])
+# Already sorted by Hadoop
+# for key, arr in Mlist.items():
+#     arr.sort(key=lambda t: t[0])
+#
+# for key, arr in Nlist.items():
+#     arr.sort(key=lambda t: t[0])
 
 for key, arr in Mlist.items():
     s = 0
